@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name             = 'WXImageCompress'
-  s.version          = '0.1.2'
-  s.summary          = 'Image size quality compression, very close to WeChat picture compression strategy'
-  s.homepage         = 'https://github.com/hucool/WXImageCompress'
+  s.name             = 'swifthelper'
+  s.version          = '0.0.1'
+  s.summary          = 'Helpers with many extensions to make it easy and speedup the development'
+  s.homepage         = 'https://github.com/sansuba/swifthelper'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tiger' => 'tiger@socool@gmail.com' }
-  s.source           = { :git => 'https://github.com/hucool/WXImageCompress.git', :tag => s.version.to_s }
+  s.author           = { 'sansuba' => 'sanjsuba@gmail.com' }
+  s.source           = { :git => 'https://github.com/sansuba/swifthelper.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'Pod/Classes/**/*'
   s.frameworks = 'UIKit', 'Foundation'
